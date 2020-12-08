@@ -20,6 +20,7 @@ footer{
 }
 
 .logoContainer{
+    
     float:left;
     width:200px;
 }
@@ -34,7 +35,7 @@ nav{
 
 ul{
     list-style-type: none;
-    background:blue;
+    background:red;
 }
 
 li{
@@ -56,4 +57,33 @@ li.active{
 
 .clearfix{
     clear:both;
+}
+
+.heroImage{
+    width:100%;
+}
+
+.heroImage .imageContainer{
+    height:300px;
+    max-height:300px;
+    background-image:url('https://images.pexels.com/photos/1551440/pexels-photo-1551440.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    position:relative;
+}
+
+.heroImage .imageContainer .imageCaption{
+    position:absolute;
+    padding:20px;
+    background:black;
+    color:white;
+    bottom:30px;
+    left:30px;
+}
+
+.mainContentContainer{
+    max-width:500px;
+    margin:0 auto;
+    background:white;
 }
